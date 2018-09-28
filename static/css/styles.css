@@ -966,12 +966,12 @@ input[type=checkbox] {
 }
 
 div#units {
-	margin-right: 20px;
+	margin-right: 5px;
 	float: left;
 }
 
 div#share {
-	float: right;
+	float: left;
 }
 
 #options h2 {
@@ -1053,7 +1053,7 @@ span.expand {
 }
 
 .hideContent, .explanContent, .refcontent {
-	display: none;
+
 }
 
 
