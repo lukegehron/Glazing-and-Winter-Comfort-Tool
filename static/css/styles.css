@@ -13,7 +13,7 @@ body {
 
 #graphViewToggle {
 	padding-top: 3px;
-	width: 90px;
+	width: 130px;
 	display: block;
 	float: right;
 	margin-left: 15px;
@@ -1242,8 +1242,8 @@ div#disclaimer h1, div#Outdoorpop h1{
 	padding: 2px 0;
 }
 
-#explanation div.descripText {
-	float: left;
+#explanation span.descripText {
+
 	color: #e4537f;
 	width: 390px;
 
