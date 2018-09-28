@@ -324,11 +324,11 @@ render.makeGraph = function () {
 
   var facMargin = {top: 1, right: 1, bottom: 2, left: 1};
 
-  var maxAllowableSVGWidth = (maxContainerWidth - 14*2 - 6)/3;
-  var maxAllowableSVGHeight = 128;
+  var maxAllowableSVGWidth = (maxContainerWidth - 14*2 - 6)/2;
+  var maxAllowableSVGHeight = 220;
 
   //overall SVG width is fixed
-  var facSpacing = 14;
+  var facSpacing = 15;
   var facWidth = maxAllowableSVGWidth + facSpacing;
   var facWidthNoSpacing = maxAllowableSVGWidth;
   var facHeight; // determined when comparing proportions
