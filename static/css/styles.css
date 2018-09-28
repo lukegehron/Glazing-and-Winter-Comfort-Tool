@@ -102,7 +102,7 @@ input:checked + .slider:before {
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
 	position: relative;
-	width: 510px;
+	width: 450px;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
 }
