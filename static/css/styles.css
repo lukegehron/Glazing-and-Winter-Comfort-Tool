@@ -102,6 +102,7 @@ input:checked + .slider:before {
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
 	position: relative;
+	width: 510px;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
 }
@@ -117,7 +118,7 @@ input:checked + .slider:before {
 #graphWrapper ul, #graphWrapper2 ul, #graphWrapper3 ul {
 	list-style: none;
 	float: right;
-	margin: 10px 35px 0px -40px;
+	margin: 0px 5px 0px 0px;
 	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	font-weight: 700;
@@ -237,7 +238,7 @@ input:checked + .slider:before {
 
 
 #facadeWrapper {
-	width: 100%
+	width: 490px
 	overflow: auto;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -264,7 +265,7 @@ input:checked + .slider:before {
 	text-transform: uppercase;
 	padding: 0 0 2px 0;
 	margin: 0;
-	width: 190px;
+	width: 120px;
 	}
 
 .greyText {
@@ -327,7 +328,7 @@ rect.blue {
 }
 
 #occupancyWrapper {
-	margin: 0 0 5px 0;
+	margin: 0 0 2px 0;
 }
 
 
@@ -470,7 +471,7 @@ input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-p
 
 #caseWrapper {
 	overflow: hidden;
-	width: 100%;
+	width: 370px;
 	display: inline-block;
 	height: 16px;
 	padding-bottom: 0;
@@ -522,6 +523,11 @@ span#case3Button {
 
 #caseSelection h2.unselected, #caseSelection h3.unselected {
 	color: #b9b9b9;
+}
+
+#caseSelection h2.notselected, #caseSelection h3.notselected {
+	color: #b9b9b9;
+	cursor: default;
 }
 
 
@@ -613,7 +619,7 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 }
 
 #inputs a {
-	color: grey;
+	color: #4c4c4e;
 }
 
 #referenceLinks a:hover, #inputs a:hover {
@@ -685,31 +691,34 @@ div.inputWrapperRight span {
 
 
 #inputs input {
-	padding: 2px 3px 1px 1px;
-	margin: 0px 12px 0px 0px;
+	border-color:#000;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px 13px 2px 2px;
+	margin: 0px 0px 0px 0px;
 	display: inline-block;
 	float: left;
-	width: 25px;
-	height: 13px;
+	width: 39px;
+	height: 15px;
 
-	background-color: rgb(245, 245, 245);
+	background-color: #fff;
 
-	border: none;
+
 
 	font-family: "museo-sans", sans-serif;
 	font-weight: 300;
-	font-size: 10px;
+	font-size: 8px;
 	text-align: right;
 	color: black;
 }
 
 #inputs input.inactive {
-	border-color: rgb(235, 235, 235);
+	border-color:#000;
 	border-style: solid;
 	border-width: 1px;
 	cursor: default;
 	background-color: #fff;
-	padding: 1px 2px 0px 0px;
+	padding: 1px 13px 2px 2px;
 }
 
 
@@ -752,7 +761,7 @@ br.glzBR {
 
 #inputs label, #occupantSliders label {
 	margin: 0;
-	padding: 2px 3px 2px 0;
+	padding: 2px 0px 2px 0;
 	float: left;
 	clear: left;
 	text-align: left;
@@ -791,7 +800,7 @@ br.glzBR {
 
 #occupantSliders label {
 	color: #000;
-	width: 230px;
+	width: 200px;
 }
 
 #occupantSliders label p {
@@ -1003,7 +1012,7 @@ div#share {
 
 #options input[type=button].optionButton.selected, #citySearch input[type=button].optionButton.selected {
 	color: #fff;
-	background-color: #777;
+	background-color: #4c4c4e;
 }
 
 #options input[type=button].optionButton#PDF, #inputs input[type=button].optionButton#URL,  #inputs input[type=button].optionButton#CSV{
@@ -1016,7 +1025,7 @@ div#share {
 
 #options input[type=button].optionButton:hover, #citySearch input[type=button].optionButton:hover, #Outdoorpop input[type=button].activeButton:hover{
 	color: #fff;
-	background-color: #777;
+	background-color: #4c4c4e;
 }
 
 
