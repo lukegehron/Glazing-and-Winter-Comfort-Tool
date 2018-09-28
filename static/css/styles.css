@@ -2,26 +2,11 @@ body {
 	margin: 0px;
 }
 
-#header {
-	width: 960px;
-	margin: 0 auto;
-}
 
-#wrapper {
-	width: 960px;
-	margin: 0 auto;
-	min-height: 1000px;
-}
-
-
-#header img {
-	width: 100%;
-}
 
 .left {
 	position: relative;
 	float: left;
-	width: 550px;
 	padding: 0;
 	margin: 0 10px 0 0;
 }
@@ -377,7 +362,7 @@ form#occupantSliders div.occSlider {
 	display: inline-block;
 	font-weight: 300;
 	font-size: 12px;
-	color: #777;
+	color: #4c4c4e;
 	margin: 0;
 }
 
@@ -437,12 +422,12 @@ input[type=range]#distFromFacade::-ms-fill-lower, input[type=range]#occupantDist
 #occupantDist::-moz-range-track, #occupantDist2::-moz-range-track, #occupantDist3::-moz-range-track, #ppd::-moz-range-track, #ppd2::-moz-range-track, #distFromFacade::-moz-range-track {
 	-moz-appearance: none;
 	height: 3px;
-	background-color: #d5d5d5;
+	background-color: #939598;
 	margin-right: 3px;
 }
 
 input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-progress{
-	background-color: rgb(147,229,0);
+	background-color: #e4537f;
 }
 
 #occupantDist::-webkit-slider-runnable-track, #occupantDist2::-webkit-slider-runnable-track, #occupantDist3::-webkit-slider-runnable-track, #ppd::-webkit-slider-runnable-track, #ppd2::-webkit-slider-runnable-track, #distFromFacade::-webkit-slider-runnable-track {
@@ -1243,12 +1228,19 @@ div#disclaimer h1, div#Outdoorpop h1{
 #explanation img.discomfortIcon {
 	float: left;
 	width: 9px;
-	height: 9px;
+	height: 12px;
 	margin: 0px 5px 0 0;
 	padding: 2px 0;
 }
 
 #explanation div.descripText {
+	float: left;
+	color: #e4537f;
+	width: 390px;
+
+}
+
+#explanation div.descripText2 {
 	float: left;
 	width: 390px;
 }
