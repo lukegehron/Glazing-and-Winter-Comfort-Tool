@@ -36,6 +36,8 @@
 	<script type="text/javascript" charset="utf-8" src="static/js/urlobject.js"></script>
 	<script type="text/javascript" charset="utf-8" src="static/js/shortenURL.js"></script>
 
+	<script>    (function (d) {      var config = {          kitId: 'njs6vtr',          scriptTimeout: 3000,          async: true        },        h = d.documentElement, t = setTimeout(function () {          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";        }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;      h.className += " wf-loading";      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';      tk.async = true;      tk.onload = tk.onreadystatechange = function () {        a = this.readyState;        if (f || a && a != "complete" && a != "loaded") return;        f = true;        clearTimeout(t);        try {          Typekit.load(config)        } catch (e) {        }      };      s.parentNode.insertBefore(tk, s)    })(document);  </script>
+
 	<script type="text/javascript" src="static/json/Heatingddy1.json"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.2/iframeResizer.contentWindow.min.js" defer></script>
 
@@ -200,22 +202,22 @@
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<div class="col-2 col-xl-1">
-		</div>
+		<div class="row ">
+			<div class="col-1 col-lg-1">
+</div>
+
 						<div class="col-12 col-lg-6">
 		<div>
 		<p style="font-size:80%;">This tool displays the impact of glazing geometry and U-value on occupant thermal <br> comfort during winter months in the absence of perimeter heat.</p>
 		</div>
 		</div>
-	<div class="col-2 col-xl-1">
-</div>
+
 
 				</div>
 		<div class="row justify-content-center">
 
 
-			<div class="col-12 col-lg-7">
+			<div class="col-12 col-lg-6">
 
 				<div  class="left">
 
@@ -241,7 +243,7 @@
 					</div>
 
 
-					
+
 
 
 					<div id="occupancyWrapper">
@@ -256,7 +258,7 @@
 								<div class="occSlider"><input type="range" name="ppd2" id="ppd2" value="10" min="5" max="30"><p id="ppdOutput2">10%</p></div>
 
 								<label for="distFromFacade">Occupant Distance From Fa&ccedil;ade (<span class="units IP">ft</span>)</label>
-								<div class="occSlider"><input type="range" name="distFromFacade" id="distFromFacade" value="3" min="1" max="12" step="0.1"><p id="distOutput">3 <span class="units IP">ft</span></p></div><br>
+								<div class="occSlider"><input type="range" name="distFromFacade" id="distFromFacade" value="3" min="1" max="12" step="0.1"><p id="distOutput">3 <span class="units IP">ft</span></p></div>
 
 							</fieldset>
 
@@ -341,7 +343,7 @@
 				<div  id="caseSelection">
 					<h2 id="case1Label"><span id="case1Button"></span>Case 1</h2>
 					<h2 id="case2Label" class="unselected"><span id="case2Button" class="unselected"></span>Case 2</h2>
-					<h2 id="case3Label" class="notselected"><span id="dead" class="unselected" disabled></span> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+					<h2 id="case3Label" class="unselected"><span id="dead" class="unselected"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
 
 				</div>
 			</div>
@@ -497,12 +499,12 @@
 
 
 <div class="row  justify-content-center">
-	<div class="col-6">
+	<div class="col-9">
 
 	<div id="explanation">
 		<fieldset class="inputgroup">
 
-			<h1 class="expandExplanation">Understanding Discomfort</h1>
+			<h1 class="expandExplanation">Understanding Discomfort</h1><br>
 
 		<div class="explanContent">
 
@@ -516,11 +518,12 @@
 				<div class="descripText2">
 
 					<p>Cold convective air currents, formed by warm room air hitting the cold window surface, create discomfort at the occupant’s feet and ankles. The strength of these currents depends on the height of the window pane, as well as the interior temperature of the glass.</p>
+					<br>
 					<h3>To minimize downdraft discomfort, try:</h3>
 					<ul>
-						<li>decreasing the window height</li>
-						<li>decreasing the window U-Value</li>
-						<li>using a glazing assembly without a room-side low-e coating</li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decreasing the window height</li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decreasing the window U-Value</li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using a glazing assembly without a room-side low-e coating</li>
 					</ul>
 			</div>
 			<div style="clear:both;"></div>
@@ -535,12 +538,13 @@
 				<div class="descripText2">
 
 				<p>Cold interior glass surfaces affect the mean radiant temperature of occupants, and in turn make them feel cold. This discomfort depends on how much the occupant “sees” of the glass, how cold the interior glass surface is and the emissivity of the glass. If the glass has a room-side low-e coating the radiant discomfort will be greatly reduced.</p>
+				<br>
 				<h3>To minimize radiant discomfort, try:</h3>
 				<ul>
-					<li>decreasing the total amount of glazing</li>
-					<li>decreasing the window U-Value</li>
-					<li>increasing the sill height</li>
-					<li>using a glazing assembly with a room-side low-e coating</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decreasing the total amount of glazing</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decreasing the window U-Value</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;increasing the sill height</li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using a glazing assembly with a room-side low-e coating</li>
 				</ul>
 			</div>
 			<div style="clear:both;"></div>
