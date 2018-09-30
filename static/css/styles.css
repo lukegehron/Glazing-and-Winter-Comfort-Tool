@@ -101,7 +101,7 @@ input:checked + .slider:before {
 
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
-	position: relative;
+
 	width: 450px;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
@@ -340,7 +340,7 @@ rect.blue {
 }
 
 form#occupantSliders div.occSlider {
-	width: 190px;
+	width: 220px;
 	height: 20px;
 	float: left;
 
@@ -540,7 +540,7 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 
 #inputs, #referenceLinks {
 	float: left;
-	width: 390px;
+
 	font-family: "museo-sans", sans-serif;
 	position: relative;
 	z-index: 0;
@@ -960,7 +960,7 @@ input[type=checkbox] {
 }
 
 div#units {
-	margin-right: 5px;
+	margin-right: 40px;
 	float: left;
 }
 
@@ -981,9 +981,9 @@ div#share {
 
 
 #options input[type=button].optionButton, #citySearch input[type=button].optionButton {
-	padding: 1px 2px;
+	padding: 1px 0px;
 	height: 20px;
-	margin: 0 3px;
+	margin: 0 2px;
 	border-radius: 0px;
 	border: 1px solid #777;
 	cursor: pointer;
@@ -1177,6 +1177,8 @@ div#disclaimer h1, div#Outdoorpop h1{
 #explanation {
 	padding: 0;
 	margin: 0px 0 0 0;
+	width: 600px;
+	position: absolute;
 }
 
 .keepTogether {
@@ -1190,7 +1192,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 	border: none;
 	color: #000;
 	height: 1px;
-	width: 100%;
+
 }
 
 #explanation h1 {
@@ -1225,6 +1227,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 	line-height: 1.5;
 	margin: 0;
  	padding: 0;
+
 }
 
 
