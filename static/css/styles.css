@@ -553,7 +553,7 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 }
 
 #occupantSliders {
-	width: 550px;
+
 	font-family: "museo-sans", sans-serif;
 }
 
@@ -1177,12 +1177,13 @@ div#disclaimer h1, div#Outdoorpop h1{
 #explanation {
 	padding: 0;
 	margin: 0px 0 0 0;
-	width: 600px;
-	position: absolute;
+
+
 }
 
 .keepTogether {
 	margin: 0 0 0px 0;
+
 }
 
 #explanation hr {
@@ -1222,6 +1223,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 }
 
 #explanation p {
+	float:left;
 	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
@@ -1235,6 +1237,14 @@ div#disclaimer h1, div#Outdoorpop h1{
 	float: left;
 	width: 160px;
 	margin: 0 40px 40px 0;
+
+}
+
+#explanation img.legend {
+	float: left;
+	width: 340px;
+	margin: 0 40px 40px 0;
+
 }
 
 #explanation img.discomfortIcon {
@@ -1253,8 +1263,11 @@ div#disclaimer h1, div#Outdoorpop h1{
 }
 
 #explanation div.descripText2 {
+	padding: 0px 0px 0px 200px;
+	max-width: 600px;
+	min-width: 500px;
 	float: left;
-	width: 370px;
+	position: absolute;
 }
 
 
