@@ -1248,6 +1248,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 }
 
 #explanation img.UWC {
+	float: right;
 
 	width: 340px;
 	margin: 0 40px 40px 0;
