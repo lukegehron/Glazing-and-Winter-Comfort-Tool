@@ -96,13 +96,13 @@ input:checked + .slider:before {
 }
 
 #graphDisplay {
-	min-height: 350px;
+	max-height: 550px;
 }
 
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
 
-	width: 450px;
+	width: 380px;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
 }
@@ -340,7 +340,7 @@ rect.blue {
 }
 
 form#occupantSliders div.occSlider {
-	width: 220px;
+	width: 145px;
 	height: 20px;
 	float: left;
 
@@ -382,7 +382,7 @@ input[type=range]#ppd, input[type=range]#ppd2, input[type=range]#distFromFacade 
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	position: absolute;
-	width: 160px
+	width: 120px
 }
 
 input[type=range]#occupantDist, input[type=range]#occupantDist2, input[type=range]#occupantDist3 {
@@ -1227,7 +1227,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
-	margin: 0;
+
  	padding: 0;
 
 }
@@ -1235,7 +1235,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 
 #explanation img.diagram {
 	float: left;
-	width: 160px;
+	width: 120px;
 	margin: 0 40px 40px 0;
 
 }
@@ -1263,9 +1263,9 @@ div#disclaimer h1, div#Outdoorpop h1{
 }
 
 #explanation div.descripText2 {
-	padding: 0px 0px 0px 200px;
+	padding: 0px 0px 60px 160px;
 	max-width: 600px;
-	min-width: 500px;
+	min-width: 400px;
 	float: left;
 	position: absolute;
 }
