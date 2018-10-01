@@ -3,7 +3,7 @@ var render = render || {}
 //function to make graph
 render.makeGraph = function () {
 
-  var maxContainerWidth = 350; // based on Payette website layout
+  var maxContainerWidth = 400; // based on Payette website layout
   var color1 = "rgb(0,160,221)";
   var color2 = "rgb(248,151,29)";
   var color3 = "rgb(108,28,131)";
@@ -90,7 +90,7 @@ render.makeGraph = function () {
         .append("svg")
         .attr("id", "graph")
         .attr("width", 0)
-        .attr("height", height + margin.top + margin.bottom);
+
 
   // Draw PPD threshold so that it's behind the data and axes
   var ppdLine = drawPPDThreshold(graphSvg, ppdValue, "dwn");
