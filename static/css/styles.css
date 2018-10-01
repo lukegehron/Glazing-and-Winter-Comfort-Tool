@@ -1247,6 +1247,13 @@ div#disclaimer h1, div#Outdoorpop h1{
 
 }
 
+#explanation img.UWC {
+
+	width: 340px;
+	margin: 0 40px 40px 0;
+
+}
+
 #explanation img.discomfortIcon {
 	float: left;
 	width: 9px;
