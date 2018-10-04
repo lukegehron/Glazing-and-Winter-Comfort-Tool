@@ -6,7 +6,6 @@ body {
 	float:left;
 }
 
-
 .left {
 	position: relative;
 	float: left;
@@ -105,7 +104,7 @@ input:checked + .slider:before {
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
 
-	width: 510px;
+	width: 550px;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
 }
@@ -343,7 +342,7 @@ rect.blue {
 }
 
 form#occupantSliders div.occSlider {
-	width: 185px;
+	width: 300px;
 	height: 20px;
 	float: left;
 
@@ -385,7 +384,7 @@ input[type=range]#ppd, input[type=range]#ppd2, input[type=range]#distFromFacade 
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	position: absolute;
-	width: 160px
+	width: 270px
 }
 
 input[type=range]#occupantDist, input[type=range]#occupantDist2, input[type=range]#occupantDist3 {
@@ -1306,4 +1305,3 @@ div#disclaimer h1, div#Outdoorpop h1{
 div.case2, div.case3, #inputs input.case2, #inputs input.case3, hr.case2, hr.case3 {
 	display: none;
 }
-
