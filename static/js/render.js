@@ -3,7 +3,7 @@ var render = render || {}
 //function to make graph
 render.makeGraph = function () {
 
-  var maxContainerWidth = 500; // based on Payette website layout
+  var maxContainerWidth = 530; // based on Payette website layout
   var color1 = "rgb(0,160,221)";
   var color2 = "rgb(248,151,29)";
   var color3 = "rgb(108,28,131)";
@@ -31,7 +31,7 @@ render.makeGraph = function () {
 
 
   /* ------ SET UP GRAPH VARIABLES AND DATA FUNCTIONS ------ */
-  var margin = {top: 20, right: 15, bottom: 40, left: 55},
+  var margin = {top: 20, right: 5, bottom: 40, left: 55},
       width = maxContainerWidth - margin.left - margin.right,
       height = 275 - margin.top - margin.bottom;
 
