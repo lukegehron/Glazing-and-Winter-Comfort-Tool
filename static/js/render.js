@@ -32,8 +32,8 @@ render.makeGraph = function () {
 
   /* ------ SET UP GRAPH VARIABLES AND DATA FUNCTIONS ------ */
   var margin = {top: 20, right: 5, bottom: 40, left: 55},
-      width = maxContainerWidth - margin.left - margin.right,
-      height = 275 - margin.top - margin.bottom;
+  width = maxContainerWidth - margin.left - margin.right,
+  height = 275 - margin.top - margin.bottom;
 
   // Set up scale functions
   // x-axis: distance from facade
@@ -89,8 +89,8 @@ render.makeGraph = function () {
   var graphSvg3 = d3.select("#graphWrapper3")
         .append("svg")
         .attr("id", "graph")
-        .attr("width", 0)
-
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom);
 
   // Draw PPD threshold so that it's behind the data and axes
   var ppdLine = drawPPDThreshold(graphSvg, ppdValue, "dwn");
@@ -328,7 +328,7 @@ render.makeGraph = function () {
   var maxAllowableSVGHeight = 220;
 
   //overall SVG width is fixed
-  var facSpacing = 15;
+  var facSpacing = 16;
   var facWidth = maxAllowableSVGWidth + facSpacing;
   var facWidthNoSpacing = maxAllowableSVGWidth;
   var facHeight; // determined when comparing proportions
