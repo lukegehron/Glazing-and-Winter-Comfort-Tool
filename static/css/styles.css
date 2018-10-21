@@ -6,22 +6,31 @@ body {
 	float:left;
 }
 
+.tableLegend{
+	font-size: 12px;
+	font-weight: 400;
+	padding: 10;
+	bottom: 12px;
+	float: right;
+}
+
 .left {
 	position: relative;
 	float: left;
+	width: 550px;
 	padding: 0;
 	margin: 0 10px 0 0;
 }
 
 #graphViewToggle {
-	padding-top: 3px;
-	width: 130px;
-	display: block;
-	float: right;
-	margin-left: 15px;
-	padding-left: 15px;
-	border-left: solid;
-	border-width: thin;
+	padding-top: 1px;
+	width: 20px;
+	/* display: block; */
+	/* float: right; */
+	/* margin-left: 15px; */
+	padding-left: 0px;
+	/* border-left: solid; */
+	/* border-width: thin; */
 	border-color: grey;
 }
 
@@ -30,7 +39,7 @@ body {
  position: relative;
  display: inline-block;
  width: 20px;
- height: 35px;
+ height: 60px;
 }
 
 /* Hide default HTML checkbox */
@@ -44,7 +53,7 @@ body {
  left: 0;
  right: 0;
  bottom: 0;
- background-color: #ccc;
+ background-color:  #4c4c4e;
  -webkit-transition: .4s;
  transition: .4s;
 }
@@ -55,16 +64,16 @@ body {
  height: 16px;
  width: 16px;
  left: 2px;
- bottom: 15px;
+ bottom: 42px;
  background-color: white;
  -webkit-transition: .4s;
  transition: .4s;
 }
 
 input:checked + .slider:before {
- -webkit-transform: translateY(6px);
- -ms-transform: translateY(11px);
- transform: translateY(11px);
+ -webkit-transform: translateY(39px);
+ -ms-transform: translateY(39px);
+ transform: translateY(39px);
 }
 
 /* Rounded sliders */
@@ -77,7 +86,6 @@ input:checked + .slider:before {
 }
 
 #graphViewToggle p {
-		font-family: "museo-sans", sans-serif;
 		font-weight: 700;
 		font-size: 12px;
 		padding: 4px 0 0px 26px;
@@ -98,13 +106,13 @@ input:checked + .slider:before {
 }
 
 #graphDisplay {
-	max-height: 550px;
+	min-height: 350px;
 }
 
 #graphWrapper, #graphWrapper2, #graphWrapper3 {
 	height: auto;
-
-	width: 550px;
+	/*width: 550px;*/
+	position: relative;
 	background-color: rgb(230,230,230);
 	overflow: hidden;
 }
@@ -120,8 +128,8 @@ input:checked + .slider:before {
 #graphWrapper ul, #graphWrapper2 ul, #graphWrapper3 ul {
 	list-style: none;
 	float: right;
-	margin: 0px 5px 0px 0px;
-	font-family: "museo-sans", sans-serif;
+	margin: 10px 35px 0px -40px;
+	/*font-family: "museo-sans", sans-serif;*/
 	font-size: 12px;
 	font-weight: 700;
 }
@@ -147,7 +155,6 @@ input:checked + .slider:before {
 
 
 #graph .creditText {
-	font-family: "museo-sans", sans-serif;
 	font-size: 9px;
 	font-style: italic;
 	display: none;
@@ -156,17 +163,17 @@ input:checked + .slider:before {
 
 
 #graph .axislabel, #graph .axis text {
-	font-family: "museo-sans", sans-serif;
+	/*font-family: "museo-sans", sans-serif;*/
 	font-size: 12px;
 }
 
 #graph .axislabel {
-	font-weight: 300;
+	font-weight: 700;
 }
 
 #graph .yaxislabel {
 	font-weight: 700;
-	font-family: "museo-sans", sans-serif;
+	/*font-family: "museo-sans", sans-serif;*/
 	font-size: 12px;
 	fill: #777777;
 }
@@ -221,7 +228,6 @@ input:checked + .slider:before {
 }
 
 #tooltip h1, #tooltip2 h1, #tooltip3 h1, #thresholdTooltip h1, #thresholdTooltip2 h1,  #thresholdTooltip3 h1 {
-	font-family: "museo-sans", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	padding: 0 0 3px 0;
@@ -252,7 +258,6 @@ input:checked + .slider:before {
 
 
 .facadeHeading {
-	font-family: "museo-sans", sans-serif;
 	font-weight: 500;
 	font-size: 11px;
 	margin: 0;
@@ -261,25 +266,27 @@ input:checked + .slider:before {
 }
 
 #graphViewToggle .heading {
-	font-family: "museo-sans", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
 	padding: 0 0 2px 0;
 	margin: 0;
-	width: 120px;
+	width: 190px;
 	}
 
 .greyText {
-	color: #b9b9b9;
+	color: #777;
+	font-weight: 700;
 }
 
 .case1Text {
-	color: rgb(0,160,221);
+	color: #000;
+	font-weight: 700;
 }
 
 .case2Text {
-	color: rgb(248,151,29);
+	color: #000;
+	font-weight: 700;
 }
 
 .case3Text {
@@ -290,7 +297,6 @@ input:checked + .slider:before {
 
 
 .facadelabel {
-	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	fill: #000;
@@ -330,7 +336,7 @@ rect.blue {
 }
 
 #occupancyWrapper {
-	margin: 0 0 2px 0;
+	margin: 0 0 5px 0;
 }
 
 
@@ -343,10 +349,8 @@ rect.blue {
 
 form#occupantSliders div.occSlider {
 	width: 300px;
-	height: 20px;
-	float: left;
-
-
+height: 20px;
+float: left;
 }
 
 #ppd, #distFromFacade, #ppd2 {
@@ -475,8 +479,8 @@ input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-p
 	overflow: hidden;
 	width: 370px;
 	display: inline-block;
-	height: 16px;
-	padding-bottom: 0;
+	height: 46px;
+	padding: 0px 0px 0px 0px;
 }
 
 #caseSelection {
@@ -484,6 +488,8 @@ input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-p
 	float: right;
 	padding-bottom: 5px;
 }
+
+
 
 #caseSelection h2 {
 	display: inline-block;
@@ -496,7 +502,7 @@ input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-p
 
 	color: #000;
 
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 
@@ -506,14 +512,22 @@ input[type=range]#ppd::-moz-range-progress, input[type=range]#ppd2::-moz-range-p
 	width: 12px;
 	height: 12px;
 	margin: 0px 2px 0 0;
-	background-size: 11px 11px;
+	background-size: 12px 12px;
 }
+
+
 
 span#case1Button {
 	background: url(../../static/images/expand-case1.png) 0 0 no-repeat;
+	cursor: pointer;
 }
 
 span#case2Button {
+	background: url(../../static/images/expand-case2.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+span#case2Button1 {
 	background: url(../../static/images/expand-case2.png) 0 0 no-repeat;
 }
 
@@ -524,26 +538,20 @@ span#case3Button {
 
 
 #caseSelection h2.unselected, #caseSelection h3.unselected {
-	color: #b9b9b9;
-}
-
-#caseSelection h2.notselected, #caseSelection h3.notselected {
-	color: #b9b9b9;
-	cursor: default;
+	/* color: #b9b9b9; */
 }
 
 
-span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unselected {
+/* span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unselected {
 	background: url(../../static/images/expand-unselected.png) 0 0 no-repeat;
 	background-size: 11px 11px;
-}
+} */
 
 
 
 #inputs, #referenceLinks {
 	float: left;
-
-	font-family: "museo-sans", sans-serif;
+	width: 390px;
 	position: relative;
 	z-index: 0;
 
@@ -555,8 +563,7 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 }
 
 #occupantSliders {
-
-	font-family: "museo-sans", sans-serif;
+	width: 550px;
 }
 
 
@@ -589,15 +596,15 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 
 #inputs #legend, #occupantSliders #legend {
 	border: none;
-	padding: 0 0 10px 0;
+	padding: 0px 0px 10px 0;
 	margin-bottom: 20px;
 }
 
 #inputs legend, #occupantSliders legend, #referenceLinks legend {
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
 	text-transform: uppercase;
-	padding: 0 0 5px 0;
+	padding: 0px 0px 5px 0;
 	margin: 0;
 	width: 190px;
 }
@@ -607,7 +614,6 @@ span#case1Button.unselected, span#case2Button.unselected, span#case3Button.unsel
 }
 
 #inputs ul, #referenceLinks ul, #referenceLinks a {
-	font-family: "museo-sans", sans-serif;
 	color: #b9b9b9;
 	font-weight: 300;
 	font-size: 12px;
@@ -694,22 +700,18 @@ div.inputWrapperRight span {
 
 #inputs input {
 	border-color:#000;
-	border-style: solid;
-	border-width: 1px;
-	padding: 2px 13px 2px 2px;
-	margin: 0px 0px 0px 0px;
-	display: inline-block;
-	float: left;
-	width: 39px;
-	height: 15px;
+		border-style: solid;
+		border-width: 1px;
+		padding: 2px 13px 2px 2px;
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+		float: left;
+		width: 39px;
+		height: 15px;
 
-	background-color: #fff;
-
-
-
-	font-family: "museo-sans", sans-serif;
+		background-color: #fff;
 	font-weight: 300;
-	font-size: 8px;
+	font-size: 10px;
 	text-align: right;
 	color: black;
 }
@@ -720,7 +722,7 @@ div.inputWrapperRight span {
 	border-width: 1px;
 	cursor: default;
 	background-color: #fff;
-	padding: 1px 13px 2px 2px;
+	padding: 1px 2px 0px 0px;
 }
 
 
@@ -757,13 +759,13 @@ br.glzBR {
 }
 
 #inputs #designConditWrapper label {
-	width: 200px;
+	width: 160px;
 }
 
 
 #inputs label, #occupantSliders label {
 	margin: 0;
-	padding: 2px 0px 2px 0;
+	padding: 2px 3px 2px 0;
 	float: left;
 	clear: left;
 	text-align: left;
@@ -802,7 +804,7 @@ br.glzBR {
 
 #occupantSliders label {
 	color: #000;
-	width: 200px;
+	width: 230px;
 }
 
 #occupantSliders label p {
@@ -956,36 +958,36 @@ input[type=checkbox] {
 
 
 #options {
-	overflow: auto;
-	width: 100%;
-	padding: 15px 0px 20px 0px;
+	/* overflow: auto; */
+	/* width: 100%; */
+	/* padding: 15px 0px 20px 0px; */
 }
 
 div#units {
-	margin-right: 40px;
-	float: left;
+	/* margin-right: 20px; */
+	/* float: left; */
 }
 
 div#share {
-	float: left;
+	/* float: right; */
 }
 
 #options h2 {
 	color: #000;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
 	text-transform: uppercase;
 	padding: 0;
-	margin: 2px 5px 0 0;
+	margin: 2px 15px 0px 0;
 	display: inline-block;
 	float: left;
 }
 
 
 #options input[type=button].optionButton, #citySearch input[type=button].optionButton {
-	padding: 1px 0px;
+	padding: 1px 2px;
 	height: 20px;
-	margin: 0 2px;
+	margin: 0 3px;
 	border-radius: 0px;
 	border: 1px solid #777;
 	cursor: pointer;
@@ -995,13 +997,12 @@ div#share {
 }
 
 #Outdoorpop input[type=button] {
-	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	padding: 1px 2px;
 	height: 22px;
 	width:125px;
 	margin: 0 3px;
-	border-radius: 0px;
+	border-radius: 10px;
 	border: 1px solid #777;
 	cursor: pointer;
 	text-align: center;
@@ -1017,7 +1018,11 @@ div#share {
 	background-color: #4c4c4e;
 }
 
-#options input[type=button].optionButton#PDF, #inputs input[type=button].optionButton#URL,  #inputs input[type=button].optionButton#CSV{
+#options input[type=button].optionButton#PDF,  #inputs input[type=button].optionButton#CSV{
+	width: 40px;
+}
+
+#options input[type=button].optionButton#URL{
 	width: 60px;
 }
 
@@ -1049,12 +1054,11 @@ span.expand {
 }
 
 .hideContent, .explanContent, .refcontent {
-
+	display: none;
 }
 
 
 div#Outdoorpop textarea {
-	font-family: "museo-sans", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 100;
@@ -1128,7 +1132,6 @@ div#Outdoorpop select{
 }
 
 div#URLpop textarea {
-	font-family: "museo-sans", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 100;
@@ -1143,7 +1146,6 @@ div#disclaimer {
 }
 
 div#disclaimer p,  div#disclaimer h1, div#Outdoorpop p, div#Outdoorpop h1, div#Outdoorpop legend{
-	font-family: "museo-sans", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 300;
@@ -1172,20 +1174,20 @@ div#disclaimer h1, div#Outdoorpop h1{
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
-
-	font-family: "museo-sans", sans-serif;
 }
 
 #explanation {
 	padding: 0;
-	margin: 0px 0 0 0;
+	margin: 30px 0 0 0;
+}
 
-
+#explan {
+	/* padding: 0; */
+	/* margin: 30px 0 0 0; */
 }
 
 .keepTogether {
 	margin: 0 0 0px 0;
-
 }
 
 #explanation hr {
@@ -1195,7 +1197,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 	border: none;
 	color: #000;
 	height: 1px;
-
+	width: 100%;
 }
 
 #explanation h1 {
@@ -1204,87 +1206,59 @@ div#disclaimer h1, div#Outdoorpop h1{
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
-
-	font-family: "museo-sans", sans-serif;
 }
 
 #explanation h2 {
 	margin: 0 0 5px 0;
 	font-weight: 700;
 	font-size: 12px;
-
-	font-family: "museo-sans", sans-serif;
 }
 
 #explanation h3 {
-	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 1.5;
-	margin: 0px 0 0 0;
+	margin: 20px 0 0 0;
 }
 
 #explanation p {
-	float:left;
-	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
-
+	margin: 0;
  	padding: 0;
-
 }
 
 
 #explanation img.diagram {
 	float: left;
-	width: 120px;
-	margin: 0 40px 40px 0;
-
+	width: 140px;
+	margin: 0 20px 0 0;
 }
 
-#explanation img.legend {
-	float: left;
-	width: 340px;
-	margin: 0 40px 40px 0;
-
-}
-
-#explanation img.UWC {
+#explan img.legend {
 	float: right;
-
 	width: 340px;
-	margin: 0 40px 40px 0;
+	margin: 0 0px 40px 0;
 
 }
 
 #explanation img.discomfortIcon {
 	float: left;
 	width: 9px;
-	height: 14px;
+	height: 9px;
 	margin: 0px 5px 0 0;
 	padding: 2px 0;
 }
 
-#explanation span.descripText {
-
-	color: #e4537f;
-	width: 320px;
-
-}
-
-#explanation div.descripText2 {
-	padding: 0px 0px 60px 160px;
-	max-width: 600px;
-	min-width: 400px;
+#explanation div.descripText {
 	float: left;
-	position: absolute;
+	width: 320px;
 }
 
 
 #explanation ul {
 	margin: 0;
 	padding: 0 0 0 10px;
-	font-family: "museo-sans", sans-serif;
 	font-size: 12px;
 }
 
@@ -1306,8 +1280,10 @@ div.case2, div.case3, #inputs input.case2, #inputs input.case3, hr.case2, hr.cas
 	display: none;
 }
 
+
 .serifText {
 	font-size: 15px;
   	line-height: 1.33333;
 	font-family: "Freight Text Pro", "Freight Text", "freight-text-pro", serif;
 }
+
