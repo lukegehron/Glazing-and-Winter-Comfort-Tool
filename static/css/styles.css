@@ -86,6 +86,7 @@ input:checked + .slider:before {
 }
 
 #graphViewToggle p {
+		font-family: "raleway", sans-serif;
 		font-weight: 700;
 		font-size: 12px;
 		padding: 4px 0 0px 26px;
@@ -129,7 +130,7 @@ input:checked + .slider:before {
 	list-style: none;
 	float: right;
 	margin: 10px 35px 0px -40px;
-	/*font-family: "museo-sans", sans-serif;*/
+	/*font-family: "raleway", sans-serif;*/
 	font-size: 12px;
 	font-weight: 700;
 }
@@ -155,6 +156,7 @@ input:checked + .slider:before {
 
 
 #graph .creditText {
+	font-family: "raleway", sans-serif;
 	font-size: 9px;
 	font-style: italic;
 	display: none;
@@ -163,7 +165,7 @@ input:checked + .slider:before {
 
 
 #graph .axislabel, #graph .axis text {
-	/*font-family: "museo-sans", sans-serif;*/
+	/*font-family: "raleway", sans-serif;*/
 	font-size: 12px;
 }
 
@@ -173,7 +175,7 @@ input:checked + .slider:before {
 
 #graph .yaxislabel {
 	font-weight: 700;
-	/*font-family: "museo-sans", sans-serif;*/
+	/*font-family: "raleway", sans-serif;*/
 	font-size: 12px;
 	fill: #777777;
 }
@@ -228,6 +230,7 @@ input:checked + .slider:before {
 }
 
 #tooltip h1, #tooltip2 h1, #tooltip3 h1, #thresholdTooltip h1, #thresholdTooltip2 h1,  #thresholdTooltip3 h1 {
+	font-family: "raleway", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	padding: 0 0 3px 0;
@@ -258,6 +261,7 @@ input:checked + .slider:before {
 
 
 .facadeHeading {
+	font-family: "raleway", sans-serif;
 	font-weight: 500;
 	font-size: 11px;
 	margin: 0;
@@ -266,6 +270,7 @@ input:checked + .slider:before {
 }
 
 #graphViewToggle .heading {
+	font-family: "raleway", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -297,6 +302,7 @@ input:checked + .slider:before {
 
 
 .facadelabel {
+	font-family: "raleway", sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	fill: #000;
@@ -552,6 +558,7 @@ span#case3Button {
 #inputs, #referenceLinks {
 	float: left;
 	width: 390px;
+	font-family: "raleway", sans-serif;
 	position: relative;
 	z-index: 0;
 
@@ -564,6 +571,7 @@ span#case3Button {
 
 #occupantSliders {
 	width: 550px;
+	font-family: "raleway", sans-serif;
 }
 
 
@@ -614,6 +622,7 @@ span#case3Button {
 }
 
 #inputs ul, #referenceLinks ul, #referenceLinks a {
+	font-family: "raleway", sans-serif;
 	color: #b9b9b9;
 	font-weight: 300;
 	font-size: 12px;
@@ -997,6 +1006,7 @@ div#share {
 }
 
 #Outdoorpop input[type=button] {
+	font-family: "raleway", sans-serif;
 	font-size: 12px;
 	padding: 1px 2px;
 	height: 22px;
@@ -1020,6 +1030,10 @@ div#share {
 
 #options input[type=button].optionButton#PDF,  #inputs input[type=button].optionButton#CSV{
 	width: 40px;
+}
+
+#options input[type=button].optionButton#IP,  #inputs input[type=button].optionButton#SI{
+	width: 20px;
 }
 
 #options input[type=button].optionButton#URL{
@@ -1059,6 +1073,7 @@ span.expand {
 
 
 div#Outdoorpop textarea {
+	font-family: "raleway", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 100;
@@ -1132,6 +1147,7 @@ div#Outdoorpop select{
 }
 
 div#URLpop textarea {
+	font-family: "raleway", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 100;
@@ -1146,6 +1162,7 @@ div#disclaimer {
 }
 
 div#disclaimer p,  div#disclaimer h1, div#Outdoorpop p, div#Outdoorpop h1, div#Outdoorpop legend{
+	font-family: "raleway", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 300;
@@ -1174,6 +1191,8 @@ div#disclaimer h1, div#Outdoorpop h1{
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
+
+	font-family: "raleway", sans-serif;
 }
 
 #explanation {
@@ -1206,15 +1225,20 @@ div#disclaimer h1, div#Outdoorpop h1{
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
+
+	font-family: "raleway", sans-serif;
 }
 
 #explanation h2 {
 	margin: 0 0 5px 0;
 	font-weight: 700;
 	font-size: 12px;
+
+	font-family: "raleway", sans-serif;
 }
 
 #explanation h3 {
+	font-family: "raleway", sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 1.5;
@@ -1222,6 +1246,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 }
 
 #explanation p {
+	font-family: "raleway", sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
 	margin: 0;
@@ -1259,6 +1284,7 @@ div#disclaimer h1, div#Outdoorpop h1{
 #explanation ul {
 	margin: 0;
 	padding: 0 0 0 10px;
+	font-family: "raleway", sans-serif;
 	font-size: 12px;
 }
 
@@ -1283,7 +1309,6 @@ div.case2, div.case3, #inputs input.case2, #inputs input.case3, hr.case2, hr.cas
 
 .serifText {
 	font-size: 15px;
-  	line-height: 1.33333;
+  line-height: 1.33333;
 	font-family: "Freight Text Pro", "Freight Text", "freight-text-pro", serif;
 }
-
