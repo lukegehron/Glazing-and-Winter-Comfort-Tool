@@ -39,7 +39,7 @@ body {
  position: relative;
  display: inline-block;
  width: 20px;
- height: 60px;
+ height: 44px;
 }
 
 /* Hide default HTML checkbox */
@@ -64,16 +64,16 @@ body {
  height: 16px;
  width: 16px;
  left: 2px;
- bottom: 42px;
+ bottom: 26px;
  background-color: white;
  -webkit-transition: .4s;
  transition: .4s;
 }
 
 input:checked + .slider:before {
- -webkit-transform: translateY(39px);
- -ms-transform: translateY(39px);
- transform: translateY(39px);
+ -webkit-transform: translateY(23px);
+ -ms-transform: translateY(23px);
+ transform: translateY(23px);
 }
 
 /* Rounded sliders */
@@ -272,11 +272,12 @@ input:checked + .slider:before {
 #graphViewToggle .heading {
 	font-family: "raleway", sans-serif;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
 	text-transform: uppercase;
-	padding: 0 0 2px 0;
+	padding: 1px 0 0px 0;
 	margin: 0;
 	width: 190px;
+	color: #000;
 	}
 
 .greyText {
@@ -710,7 +711,7 @@ div.inputWrapperRight span {
 #inputs input {
 	border-color:#000;
 		border-style: solid;
-		border-width: 1px;
+		border-width: .01em;
 		padding: 2px 13px 2px 2px;
 		margin: 0px 0px 0px 0px;
 		display: inline-block;
