@@ -836,6 +836,10 @@ input[type=checkbox] {
 	visibility: hidden;
 }
 
+input[type=radio] {
+	visibility: hidden;
+}
+
 #inputs div.customCheckStyle {
 	width: 12px;
 	margin: 0px 5px 0px 20px;
